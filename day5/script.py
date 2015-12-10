@@ -1,3 +1,5 @@
+#Written for Python 3.4.2
+
 data =  [line.rstrip('\n') for line in open("input.txt")]
 blacklist = ["ab", "cd", "pq", "xy"]
 vowels = ['a', 'e', 'i', 'o', 'u']

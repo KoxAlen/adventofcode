@@ -1,3 +1,5 @@
+#Written for Python 3.4.2
+
 data = [c for c in open("input.txt").readline()]
 def move(moves):
     def step(house, d):

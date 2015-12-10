@@ -1,3 +1,5 @@
+#Written for Python 3.4.2
+
 import hashlib
 
 def genNext(crypto, number):
