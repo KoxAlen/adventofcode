@@ -4,7 +4,7 @@ import re
 with open("input.txt", "r") as f:
     data = list(f)
 
-matcher = re.compile(r"^(\S+).*\s(\d+)\s.*\s(\d+)\s.*\s(\d+)\s.*")
+matcher = re.compile(r"(\S+) can fly (\d+) km/s for (\d+) seconds, but then must rest for (\d+) seconds.")
 
 reindeers = dict()
 
